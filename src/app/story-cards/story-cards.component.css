@@ -1,0 +1,21 @@
+*{
+    margin: 2px 0 2px 0;
+}
+.row{
+    padding: 10px;
+}
+.card{
+    margin:10px 8px 10px 8px;
+    border: rgb(247, 4, 4) solid 3px;
+    border-radius: 15px;
+    padding: 0 0 0 0;
+}
+h5{
+    color: #fdb04c;
+}
+p{
+    color: whitesmoke;
+}
+img{
+    border-radius: 12px;
+}

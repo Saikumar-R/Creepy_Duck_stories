@@ -1,0 +1,38 @@
+.navbar{
+    background-color: rgb(26, 26, 26);
+}
+.nav-item{
+    padding-left: 0 20px 0 20px;
+}
+.active{
+    border-bottom: 3px solid red;
+    display: inline-block;
+}
+img{
+    margin: 0 10px 0 0;
+}
+.card-header, .card-footer{
+    color: white;
+    font-weight: bolder;
+}
+.card-body{
+    background-color: #d18017;
+}
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+   
+}
+.card-text{
+    font-family: cursive;
+    font-weight: bold;
+}
+b{
+    font-family: cursive;
+    color: #dc3545;
+    letter-spacing: 1px;
+    
+}

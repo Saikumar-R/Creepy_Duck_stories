@@ -1,0 +1,25 @@
+.wrapper{
+   margin: 3% 10% 3% 10%;
+}
+h1{
+    font-family: cursive;
+    font-weight: bold;
+}
+.qr-code{
+    width: 70%;
+    height: auto;
+   
+}
+@media only screen and (min-width:480px) and (max-width: 768px){
+    .qr-code{
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+       
+    }
+    .wrapper{
+        margin: 10% 0 10% 0;
+        padding: 5% 0 5% 0;
+     }
+}

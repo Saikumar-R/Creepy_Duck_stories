@@ -1,0 +1,45 @@
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a href="#"><img [src]="'assets/navbar-icon2.png'" alt="" srcset="" width="40px" height="auto"></a>
+    <a class="navbar-brand font-weight-bold" href="#">Creepy Duck Stories</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" routerLink="cards" routerLinkActive="active" aria-label="Home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="socialMedia" routerLinkActive="active" aria-label="Social media">Social media links</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " routerLink="aboutUs" routerLinkActive="active" aria-label="About us">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " routerLink="supportUs" routerLinkActive="active" aria-label="Support us">Support us</a>
+        </li>
+      </ul>
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>
+
+<div class="card text-center footer">
+    <div class="card-header text-muted bg-dark">
+      Thanks for your vist
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">We write and upload horror content in telugu</h5>
+      <p class="card-text">This website is only for entertainment purpose</p>
+      <a routerLink="supportUs" routerLinkActive="active" class="btn btn-primary ">Support us</a>
+    </div>
+    <div class="card-footer text-muted bg-dark">
+     
+      This website is created,organize and maintaing by <b>Saikumar</b>
+    </div>
+</div>
